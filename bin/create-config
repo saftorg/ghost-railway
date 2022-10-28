@@ -54,6 +54,8 @@ function createConfig() {
           user: process.env.MAILGUN_SMTP_LOGIN,
           pass: process.env.MAILGUN_SMTP_PASSWORD,
         },
+        host: "smtp.eu.mailgun.org",
+        port: 465
       },
     },
     fileStorage: fileStorage,
